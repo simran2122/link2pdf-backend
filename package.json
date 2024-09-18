@@ -1,0 +1,19 @@
+{
+    "name": "pdf-tool-backend",
+    "version": "1.0.0",
+    "description": "Backend service for PDF tools",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "gs": "^0.0.2",
+        "nodemon": "^3.1.2",
+        "puppeteer": "^22.10.0"
+    }
+}
